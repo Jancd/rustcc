@@ -1,0 +1,31 @@
+## 2023/12月 Rust OSDev
+
+12月新一期 "本月 Rust OSDev"，包含了与 Rust 操作系统开发相关的新闻、博文等。
+
+详情请看：[https://rust-osdev.com/this-month/2023-12/](https://rust-osdev.com/this-month/2023-12/)
+
+## OOM 恶作剧
+
+在 Epsio Labs，我们开发了一种增量 SQL 引擎，在测试引擎压力的第一种方法是运行 TPC-DS 基准查询（行业标准基准），并使用大数据规模（100 TB 记录）。在测试过程中发现引擎进程被 killed 了。通过查看系统指标和日志，我们发现 OOM。
+
+在这篇博文中，将探讨内存利用率的不确定性，揭开进程内存膨胀的神秘面纱，并讨论我们是如何解决这个问题的。
+
+![](https://assets-global.website-files.com/649abb101f1b7e207dfc09fa/6596fd6b7ac8606c5d1eaaa2_1*Z7DvCau4A4SsAXw7BcEoUg.png)
+
+详情请看：[https://www.epsio.io/blog/out-of-memory-shenanigans](https://www.epsio.io/blog/out-of-memory-shenanigans)
+
+## 嵌入式 Rustacean issue 集合
+
+Embedded Rustacean 第 10 期，这是每两周一次的资源整合和嵌入式 Rust 🦀 周围发生的一切的总结。
+
+![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6bad22af-5bf2-497c-855f-f9bfc84e8297/Thumbnail_Design_Invert__1200___630_px_.png?t=1691788507)
+
+详情请看：[https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-10](https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-10)
+
+---
+
+From 日报小组 [@Jancd](https://github.com/Jancd)
+
+社区学习交流平台订阅：
+- [Rust.cc论坛: 支持rss](https://rustcc.cn/)
+- [微信公众号：Rust语言学习交流](https://rustcc.cn/article?id=ed7c9379-d681-47cb-9532-0db97d883f62)
